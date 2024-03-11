@@ -472,9 +472,6 @@ static int test_tls13ccs(int tst)
             goto err;
         break;
 
-    default:
-        TEST_error("Invalid test value");
-        goto err;
     }
 
     ret = 1;
